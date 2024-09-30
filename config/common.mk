@@ -52,7 +52,7 @@ endif
 DONT_DEXPREOPT_PREBUILTS := true
 
 # Include GMS, Modules, and Pixel features.
-$(call inherit-product, vendor/partner_gms/config.mk)
+$(call inherit-product, vendor/google/gms/config.mk)
 $(call inherit-product, vendor/google/pixel/config.mk)
 
 # Anything including updatable_apex.mk should have done so by now.
